@@ -34,7 +34,7 @@ Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, a
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=the-jodingo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-jodingo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-jodingo&layout=compact&theme=tokyonight&hide_border=true" alt="HTML Python Go Powershell" />
 </div>
 
 <p align="center">
