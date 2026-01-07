@@ -41,12 +41,6 @@ Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, a
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=the-jodingo&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
-### 🏆 Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=the-jodingo&theme=tokyonight&no-frame=true&margin-w=15" alt="Trophies"/>
-
-### 📈 Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-jodingoE&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
-
 ### 🔗 Connect with Me
 <p align="left">
   <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
