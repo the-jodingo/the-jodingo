@@ -32,10 +32,10 @@ Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, a
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=the-jodingo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-jodingo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=the-jodingo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-jodingo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=the-jodingo&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
