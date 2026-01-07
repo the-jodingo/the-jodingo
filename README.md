@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Joash Odingo
 
-### DevOps Engineer | Cloud Architect | Automation Enthusiast
+### DevOps Engineer | Cloud Engineer | Automation Enthusiast | Platform Engineer |
 
 Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, and container orchestration. Passionate about GitOps, observability, and making deployments boring (in a good way!).
 
@@ -11,7 +11,7 @@ Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, a
 - 🌱 Learning advanced ArgoCD and Crossplane
 - 👯 Open to collaborating on Terraform modules and GitHub Actions
 - 💬 Ask me about AWS, Docker, Jenkins, or Prometheus
-- 📫 Reach me: [your.email@example.com](mailto:your.email@example.com)
+- 📫 Reach me: odingojoash4@gmail.com
 - ⚡ Fun fact: I automate everything — including my coffee machine ☕
 
 ### 🛠️ Tech Stack & Tools
@@ -33,19 +33,19 @@ Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, a
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=the-jodingo&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=the-jodingo&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=the-jodingo&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ### 🏆 Trophies
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&margin-w=15" alt="Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=the-jodingo&theme=tokyonight&no-frame=true&margin-w=15" alt="Trophies"/>
 
 ### 📈 Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=the-jodingoE&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
 
 ### 🔗 Connect with Me
 <p align="left">
