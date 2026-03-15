@@ -31,11 +31,6 @@ Infrastructure engineer focused on building resilient, scalable systems through 
 
 ### 📊 GitHub Stats
 
-
 ### 🔗 Connect with Me
-<p align="left">
-  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://twitter.com/your-twitter"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white" alt="Twitter"/></a>
-</p>
 
 Thanks for visiting! 🚀
