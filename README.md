@@ -2,23 +2,22 @@
 
 ### DevOps Engineer | Cloud Engineer | Automation Enthusiast | Platform Engineer |
 
-Building scalable, reliable infrastructure with CI/CD, Infrastructure as Code, and container orchestration. Passionate about GitOps, observability, and making deployments boring (in a good way!).
+Infrastructure engineer focused on building resilient, scalable systems through CI/CD automation, Infrastructure as Code, and container orchestration. Passionate about GitOps principles and observability as foundations for operational excellence.
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="DevOps animation"/>
 
 ### 🚀 About Me
 - 🔭 Currently working on Kubernetes clusters and GitOps workflows
-- 🌱 Learning advanced ArgoCD and Crossplane
+- 🌱 Learning Redhat Automation using Ansible and Openshift
 - 👯 Open to collaborating on Terraform modules and GitHub Actions
-- 💬 Ask me about AWS, Docker, Jenkins, or Prometheus
-- 📫 Reach me: odingojoash4@gmail.com
-- ⚡ Fun fact: I automate everything — including my coffee machine ☕
+- 💬 Ask me about AWS, Kubernetes, Ansible, Terraform, Docker, Jenkins, or Prometheus
+- 📫 Reach me: DM
+- ⚡ Fun fact: Am always open to be taught and learn something new
 
 ### 🛠️ Tech Stack & Tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=FF9900" alt="AWS"/>
-  <img src="https://img.shields.io/badge/-Azure-0089D6?logo=microsoft-azure&logoColor=white" alt="Azure"/>
   <img src="https://img.shields.io/badge/-GCP-4285F4?logo=google-cloud&logoColor=white" alt="GCP"/>
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white" alt="Docker"/>
