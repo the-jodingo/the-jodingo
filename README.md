@@ -1,7 +1,5 @@
 # Hi there 👋, I'm Joash Odingo
 
-### DevOps Engineer | Cloud Engineer | Automation Enthusiast | Platform Engineer |
-
 Infrastructure engineer focused on building resilient, scalable systems through CI/CD automation, Infrastructure as Code, and container orchestration. Passionate about GitOps principles and observability as foundations for operational excellence.
 
 <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="DevOps animation"/>
@@ -30,7 +28,5 @@ Infrastructure engineer focused on building resilient, scalable systems through 
 </p>
 
 ### 📊 GitHub Stats
-
-### 🔗 Connect with Me
 
 Thanks for visiting! 🚀
