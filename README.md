@@ -1,10 +1,11 @@
 # Hi there 👋, I'm Joash Odingo
 
-Infrastructure engineer focused on building resilient, scalable systems through CI/CD automation, Infrastructure as Code, and container orchestration. Passionate about GitOps principles and observability as foundations for operational excellence.
+DevOps Engineer specializing in the design and implementation of resilient, scalable, and highly available systems. Expertise in CI/CD automation, Infrastructure as Code (IaC), and container orchestration with Docker and Kubernetes. Strong advocate for GitOps principles and observability practices to drive operational excellence, reliability, and continuous improvement in modern cloud-native environments
+
 ### 🚀 About Me
 - 🔭 Currently working on Kubernetes clusters and GitOps workflows
-- 🌱 Learning Redhat Automation using Ansible and Openshift
-- 👯 Open to collaborating on Terraform modules and GitHub Actions
+- 🌱 Learning Redhat Automation 
+- 👯 Open to collaborating on variable modules
 - 💬 Ask me about AWS, Kubernetes, Ansible, Terraform, Docker, Jenkins, or Prometheus
 - 📫 Reach me: DM
 - ⚡ Fun fact: Am always open to be taught and learn something new
