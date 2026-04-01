@@ -1,6 +1,6 @@
 # Hi there 👋, I'm Joash Odingo
 
-DevOps Engineer specializing in the design and implementation of resilient, scalable, and highly available systems. Expertise in CI/CD automation, Infrastructure as Code (IaC), and container orchestration with Docker and Kubernetes. Strong advocate for GitOps principles and observability practices to drive operational excellence, reliability, and continuous improvement in modern cloud-native environments
+DevOps Engineer passionate about automation, scalability, and clean deployment practices. Currently building resilient cloud-native systems with Kubernetes and GitOps
 
 ### 🚀 About Me
 - 🔭 Currently working on Kubernetes clusters and GitOps workflows
@@ -13,8 +13,7 @@ DevOps Engineer specializing in the design and implementation of resilient, scal
 ### 🛠️ Tech Stack & Tools
 <p align="left">
   <img src="https://img.shields.io/badge/-AWS-232F3E?logo=amazon-aws&logoColor=FF9900" alt="AWS"/>
-  <img src="https://img.shields.io/badge/-GCP-4285F4?logo=google-cloud&logoColor=white" alt="GCP"/>
-  <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white" alt="Kubernetes"/>
+   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white" alt="Kubernetes"/>
   <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/-Terraform-623CE4?logo=terraform&logoColor=white" alt="Terraform"/>
   <img src="https://img.shields.io/badge/-Ansible-EE0000?logo=ansible&logoColor=white" alt="Ansible"/>
