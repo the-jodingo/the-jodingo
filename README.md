@@ -7,7 +7,7 @@ DevOps Engineer passionate about automation, scalability, and clean deployment p
 - 🌱 Learning Redhat Automation 
 - 👯 Open to collaborating on variable modules
 - 💬 Ask me about AWS, Kubernetes, Ansible, Terraform, Docker, Jenkins, or Prometheus
-- 📫 Reach me: DM
+- 📫 Reach me: https://www.linkedin.com/in/joash-odingo-313162292/ 
 - ⚡ Fun fact: Am always open to be taught and learn something new
 
 ### 🛠️ Tech Stack & Tools
