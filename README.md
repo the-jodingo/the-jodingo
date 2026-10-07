@@ -22,27 +22,64 @@ reliably. Based in Tulsa, Oklahoma.
 
 ---
 
-### About me
+### Featured projects
 
-- 🔭 Building resilient cloud-native systems with **Kubernetes** and **GitOps**
-- 🌱 Deepening **Kubernetes / Argo CD** practice and studying **AI/ML engineering**
-- 💬 Ask me about **AWS, Kubernetes, Terraform, Docker, Jenkins, Ansible, or Prometheus**
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/the-jodingo)
-- ⚡ Always open to being taught something new
+Every project below is MIT-licensed and has a passing CI pipeline.
+
+#### 🏗️ [infra-platform-project](https://github.com/the-jodingo/infra-platform-project)
+[![CI](https://github.com/the-jodingo/infra-platform-project/actions/workflows/ci.yml/badge.svg)](https://github.com/the-jodingo/infra-platform-project/actions/workflows/ci.yml)
+[![Terraform](https://img.shields.io/badge/Terraform-AWS-7B42BC?logo=terraform&logoColor=white)](https://github.com/the-jodingo/infra-platform-project)
+
+Reference DevOps platform: a Python service with Terraform-provisioned AWS
+VPC + EKS, a Jenkins pipeline, Prometheus/Grafana monitoring, and a NIST
+CSF-aligned security policy. Blue-green deployment path included.
+
+#### 🚀 [joash-web-app](https://github.com/the-jodingo/joash-web-app)
+[![CI](https://github.com/the-jodingo/joash-web-app/actions/workflows/ci.yml/badge.svg)](https://github.com/the-jodingo/joash-web-app/actions/workflows/ci.yml)
+[![Terraform](https://img.shields.io/badge/Terraform-AWS-7B42BC?logo=terraform&logoColor=white)](https://github.com/the-jodingo/joash-web-app)
+
+Containerised web application with a complete delivery pipeline — Jenkins CI,
+Terraform infrastructure, and Prometheus monitoring.
+
+#### 🐳 [Jenkins-Docker-Demo](https://github.com/the-jodingo/Jenkins-Docker-Demo)
+[![CI](https://github.com/the-jodingo/Jenkins-Docker-Demo/actions/workflows/ci.yml/badge.svg)](https://github.com/the-jodingo/Jenkins-Docker-Demo/actions/workflows/ci.yml)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](https://github.com/the-jodingo/Jenkins-Docker-Demo)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-manifests-326CE5?logo=kubernetes&logoColor=white)](https://github.com/the-jodingo/Jenkins-Docker-Demo)
+
+Two Node.js microservices built, tested, and shipped by a parallel Jenkins
+pipeline. Docker images pushed to a registry, deployed with Compose, with
+Kubernetes manifests and CodeQL scanning.
+
+#### ☁️ [aws-cloudformation](https://github.com/the-jodingo/aws-cloudformation)
+[![CI](https://github.com/the-jodingo/aws-cloudformation/actions/workflows/ci.yml/badge.svg)](https://github.com/the-jodingo/aws-cloudformation/actions/workflows/ci.yml)
+[![CloudFormation](https://img.shields.io/badge/AWS-CloudFormation-FF9900?logo=amazon-aws&logoColor=white)](https://github.com/the-jodingo/aws-cloudformation)
+
+Validated CloudFormation templates for EC2, EBS, and S3 — linted with
+`cfn-lint` on every push. Includes a parameterised, least-privilege SSH rule.
+
+#### 📊 [Python-Terminal-CPU-Monitor](https://github.com/the-jodingo/Python-Terminal-CPU-Monitor)
+[![CI](https://github.com/the-jodingo/Python-Terminal-CPU-Monitor/actions/workflows/ci.yml/badge.svg)](https://github.com/the-jodingo/Python-Terminal-CPU-Monitor/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://github.com/the-jodingo/Python-Terminal-CPU-Monitor)
+
+Live terminal CPU dashboard: overall and per-core usage, load average, a
+rolling history bar, and the top processes — tested on Linux and macOS.
+
+#### 🐧 [Linux-CPU-monitoring-system](https://github.com/the-jodingo/Linux-CPU-monitoring-system)
+[![CI](https://github.com/the-jodingo/Linux-CPU-monitoring-system/actions/workflows/ci.yml/badge.svg)](https://github.com/the-jodingo/Linux-CPU-monitoring-system/actions/workflows/ci.yml)
+[![ShellCheck](https://img.shields.io/badge/linted%20with-shellcheck-blue)](https://github.com/the-jodingo/Linux-CPU-monitoring-system)
+
+Dependency-free Bash CPU monitor using `/proc/stat`, `mpstat`, and `ps`.
+ShellCheck-clean, with a smoke test in CI.
 
 ---
 
-### Featured projects
+### Currently
 
-| Project | What it is |
-|---|---|
-| [infra-platform-project](https://github.com/the-jodingo/infra-platform-project) | End-to-end platform: application, Terraform infrastructure, CI pipeline, monitoring, security scanning |
-| [joash-web-app](https://github.com/the-jodingo/joash-web-app) | Containerised web application with a full delivery pipeline |
-| [aws-cloudformation](https://github.com/the-jodingo/aws-cloudformation) | EC2 + security group provisioning with CloudFormation |
-| [Jenkins-Docker-Demo](https://github.com/the-jodingo/Jenkins-Docker-Demo) | Jenkins pipeline that builds and ships a containerised microservice |
-| [Python-Terminal-CPU-Monitor](https://github.com/the-jodingo/Python-Terminal-CPU-Monitor) | Terminal CPU/memory monitor with alerting |
-| [Linux-CPU-monitoring-system](https://github.com/the-jodingo/Linux-CPU-monitoring-system) | Dependency-free Bash monitoring script |
+- Deepening **Kubernetes** and **GitOps** (Argo CD) practice
+- Studying **AI/ML engineering** — RAG, agents, evals, and serving
+- Preparing for **CKA** and **AWS** certifications
 
 ---
 
 Open to **DevOps / Platform / SRE** roles.
+[LinkedIn](https://www.linkedin.com/in/the-jodingo)
