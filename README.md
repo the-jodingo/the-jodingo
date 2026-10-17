@@ -15,7 +15,7 @@ Based in **Tulsa, Oklahoma** · Open to **DevOps / Platform / SRE** roles.
 - 🚀 I ship end-to-end delivery pipelines — source to running service — using
   Jenkins, GitHub Actions, Terraform and Docker.
 - ☁️ I define cloud infrastructure as code (AWS: VPC, EC2, EKS, S3, IAM,
-  CloudFormation) rather than clicking it together.
+  CloudFormation, OIDC) rather than clicking it together.
 - 📈 I care about observability: metrics, dashboards and monitoring loops built
   from first principles.
 - 🐧 Comfortable across Linux (RHEL, Ubuntu), Bash and Python automation.
@@ -27,7 +27,7 @@ Based in **Tulsa, Oklahoma** · Open to **DevOps / Platform / SRE** roles.
 
 | Area | Tools |
 |---|---|
-| **Cloud** | AWS — EC2, S3, VPC, EKS, IAM, CloudFormation OIDC |
+| **Cloud** | AWS — EC2, S3, VPC, EKS, IAM, CloudFormation, OIDC |
 | **Containers** | Docker (multi-stage builds), Kubernetes |
 | **Infrastructure as Code** | Terraform, Ansible, CloudFormation |
 | **CI/CD** | Jenkins, GitHub Actions, Argo CD |
@@ -39,53 +39,74 @@ Based in **Tulsa, Oklahoma** · Open to **DevOps / Platform / SRE** roles.
 
 ## 🚀 Featured Projects
 
-Every project below is my own work, MIT-licensed, and buildable from source.
+My own work, MIT-licensed, buildable from source — most complex first.
 
 ### 🏗️ [infra-platform-project](https://github.com/the-jodingo/infra-platform-project)
 
-Reference DevOps platform: a Python service with Terraform-provisioned AWS VPC
-and EKS, a Jenkins pipeline, Prometheus/Grafana monitoring, and a NIST
-CSF-aligned security policy. Includes a blue-green deployment path.
+The flagship: a reference DevOps platform. A containerised Python service on a
+Terraform-provisioned AWS VPC — three private subnets across availability zones
+and an **EKS cluster** — shipped by a Jenkins pipeline, with Prometheus alert
+rules, Grafana dashboards, a written security policy, and a blue-green
+deployment path.
 
-### 🚀 [joash-web-app](https://github.com/the-jodingo/joash-web-app)
-
-Containerised web application with a complete delivery pipeline — Jenkins CI,
-Terraform infrastructure, and Prometheus monitoring.
+`Terraform` · `AWS EKS` · `Jenkins` · `Prometheus` · `Grafana` · `Python`
 
 ### 🐳 [Jenkins-Docker-Demo](https://github.com/the-jodingo/Jenkins-Docker-Demo)
 
-Two Node.js microservices built, tested, and shipped by a parallel Jenkins
-pipeline. Docker images pushed to a registry, deployed with Compose, with
-Kubernetes manifests and CodeQL scanning.
+Two Node.js microservices built, tested and shipped by a **parallel Jenkins
+pipeline** — test and build stages run side by side, images are pushed to a
+registry, and the stack is deployed with Docker Compose. Includes Kubernetes
+manifests (namespace, deployments, services, ingress) and CodeQL scanning.
 
-### 🍕 [Jenkins_Project0](https://github.com/the-jodingo/Jenkins_Project0)
-
-Maven WAR application (Java servlet + JSP) packaged and deployed to Apache
-Tomcat, with a declarative Jenkins CI/CD pipeline and a Docker build path.
-
-### ☁️ [aws-cloudformation](https://github.com/the-jodingo/aws-cloudformation)
-
-Validated CloudFormation templates for EC2, EBS, and S3 — linted with
-`cfn-lint` on every push. Includes a parameterised, least-privilege SSH rule.
+`Jenkins` · `Docker Compose` · `Kubernetes` · `Node.js` · `CodeQL`
 
 ### 🔐 [terraform-cicd-oidc-pipeline_terraform.project](https://github.com/the-jodingo/terraform-cicd-oidc-pipeline_terraform.project)
 
-Terraform CI/CD using GitHub Actions with OIDC keyless AWS authentication —
-plan on pull request, apply on merge, no long-lived cloud keys.
+Terraform CI/CD with **keyless AWS authentication** — an OIDC trust relationship
+between GitHub Actions and AWS, so no long-lived cloud credentials exist at all.
+Plan on pull request, apply on merge behind an approval gate, with KMS-encrypted
+remote state.
+
+`Terraform` · `GitHub Actions OIDC` · `AWS IAM` · `KMS`
 
 ### 📦 [aws-modules-remote-state_terraform.project](https://github.com/the-jodingo/aws-modules-remote-state_terraform.project)
 
-Reusable AWS Terraform modules with an S3 + DynamoDB remote state backend.
+A reusable Terraform **module library** — VPC, S3 bucket and security group —
+with an S3 + DynamoDB remote-state backend, separate bootstrap and environment
+roots, and Checkov/tflint scanning in CI.
+
+`Terraform modules` · `S3 backend` · `DynamoDB locking` · `Checkov`
+
+### 🍕 [Jenkins_Project0](https://github.com/the-jodingo/Jenkins_Project0)
+
+A Maven **WAR** application (Java servlet + JSP) packaged and deployed to Apache
+Tomcat, with a declarative Jenkins CI/CD pipeline that builds, tests, deploys
+and verifies the running app — plus a multi-stage Docker build path.
+
+`Maven` · `Java` · `Tomcat` · `Jenkins` · `Docker`
+
+### ☁️ [aws-cloudformation](https://github.com/the-jodingo/aws-cloudformation)
+
+CloudFormation templates for EC2, EBS and S3, linted with `cfn-lint` on every
+push. Includes a parameterised, least-privilege SSH rule rather than an open
+`0.0.0.0/0` default.
+
+`AWS CloudFormation` · `cfn-lint` · `IAM`
 
 ### 📊 [Python-Terminal-CPU-Monitor](https://github.com/the-jodingo/Python-Terminal-CPU-Monitor)
 
-Live terminal CPU dashboard: overall and per-core usage, load average, a
-rolling history bar, and the top processes — tested on Linux and macOS.
+A live terminal dashboard for CPU usage: overall and per-core utilisation, load
+average, a rolling history bar, and the top CPU-consuming processes — tested on
+Linux and macOS.
+
+`Python` · `psutil` · `rich` · `pytest`
 
 ### 🐧 [Linux-CPU-monitoring-system](https://github.com/the-jodingo/Linux-CPU-monitoring-system)
 
-Dependency-free Bash CPU monitor using `/proc/stat`, `mpstat`, and `ps`.
-ShellCheck-clean, with a smoke test in CI.
+A dependency-free Bash CPU monitor reading `/proc/stat`, `mpstat` and `ps`, with
+configurable thresholds. ShellCheck-clean, with a smoke test in CI.
+
+`Bash` · `/proc` · `mpstat` · `ShellCheck`
 
 ---
 
