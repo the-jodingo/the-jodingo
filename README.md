@@ -108,6 +108,21 @@ configurable thresholds. ShellCheck-clean, with a smoke test in CI.
 
 `Bash` · `/proc` · `mpstat` · `ShellCheck`
 
+### 🧱 Terraform baselines
+
+Three small, self-contained projects, each solving one problem that shows up in
+every real account. All validate and pass Checkov without AWS credentials.
+
+- **[terraform-aws-cost-guardrails](https://github.com/the-jodingo/terraform-aws-cost-guardrails)** —
+  monthly cost budget publishing to an encrypted SNS topic at 50/80/100% of the
+  limit. `AWS Budgets` · `SNS` · `KMS`
+- **[terraform-aws-secure-bucket](https://github.com/the-jodingo/terraform-aws-secure-bucket)** —
+  hardened S3: SSE-KMS, all four public-access blocks, TLS-only bucket policy,
+  access logging and Glacier lifecycle. `S3` · `KMS` · `IAM policy`
+- **[terraform-aws-audit-trail](https://github.com/the-jodingo/terraform-aws-audit-trail)** —
+  multi-region CloudTrail with log-file validation, an encrypted log archive and
+  CloudWatch delivery. `CloudTrail` · `CloudWatch Logs` · `KMS`
+
 ---
 
 ## 📊 Currently
